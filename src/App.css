@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "League Spartan";
+}
+
+nav {
+  position: absolute;
+  margin: 2.5em 1rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  grid-template-columns: 2fr 1fr;
+  width: 50%;
+}
+nav .hamburger {
+  display: none;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+main section img {
+  top: 0.1px;
+  width: 100%;
+}
+main section .section-content {
+  margin: 2.5rem 1.7em;
+}
+main section .section-content h1 {
+  font-size: 2.1em;
+  font-weight: 700;
+  line-height: 2rem;
+}
+main section .section-content p {
+  margin: 1rem 0;
+  font-size: 1em;
+  line-height: 1.3rem;
+  color: hsl(0, 0%, 63%);
+}
+main section .section-content button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background: none;
+  width: 70%;
+}
+main section .section-content button img {
+  width: 2.5rem;
+}
+main section .section-content button p {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 27%);
+}
+main .content-button {
+  position: absolute;
+  right: 0.1px;
+  top: 38.5%;
+}
+main .content-button button {
+  padding: 1rem 1.5rem;
+  background: #000;
+  border: none;
+}
+main .content-button button img {
+  width: 0.5rem;
+}
+
+footer img {
+  width: 100%;
+}
+footer .text-container {
+  margin: 2.5rem 1.7em;
+}
+footer .text-container h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-size: 0.9em;
+  color: hsl(0, 0%, 27%);
+}
+footer .text-container p {
+  margin-top: 1rem;
+  font-size: 1em;
+  color: hsl(0, 0%, 63%);
+}/*# sourceMappingURL=App.css.map */
