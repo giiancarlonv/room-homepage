@@ -156,9 +156,6 @@ footer .text-container p {
   }
 }
 @media (min-width: 1280px) {
-  body {
-    overflow-y: hidden;
-  }
   nav {
     margin: 3rem 4rem;
     flex-flow: row;
