@@ -158,9 +158,10 @@ footer{
     }
   }
 }
-
-
 @media (min-width: 1280px){
+  body{
+    overflow-y: hidden;
+  }
   nav{
     margin: 3rem 4rem;
     flex-flow: row;
@@ -226,7 +227,7 @@ footer{
     }
   }
 }
-@media (min-width: 1920px){
+@media (min-width: 1536px){
   nav{
     margin: 4rem 5em;
     flex-flow: row;
@@ -240,18 +241,17 @@ footer{
       display: grid;
       grid-template-columns: 2fr 1.4fr;
       .section-content{
-        padding: 5rem;
+        padding: 3rem 5rem;
         h1{
-          font-size: 4em;
+          font-size: 3em;
           line-height: 1em;
         }
         p{
-          font-size: 1.5em;
-          line-height: 2rem;
+          font-size: 1em;
           margin: 1.5rem 0;
         }
         button{
-          font-size: 1.2em;
+          font-size: 1em;
           width: 50%;
           padding: 0;
           img{
@@ -261,8 +261,8 @@ footer{
       }
     }
     .content-button{
-      right: 33.7%;
-      top: 58.7%;
+      right: 31.8%;
+      top: 56.6%;
       button{
         padding: 1.8rem;
         img{
@@ -278,19 +278,19 @@ footer{
   }
   footer{
     display: grid;
-    grid-template-columns: 2fr 1.9fr 2fr;
+    grid-template-columns: 2fr 2.5fr 2fr;
     img{
       width: 100%;
-      height: 100%;
+      height: 97%;
     }
     .text-container{
-      padding: 2.5rem 2rem;
+      padding: 2rem 1.5rem;
       h3{
-        font-size: 1.5em;
+        font-size: 1em;
         font-weight: 800;
       }
       p{
-        font-size: 1.3em;
+        font-size: 1em;
       }
     }
   }
